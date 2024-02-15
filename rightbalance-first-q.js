@@ -1,5 +1,5 @@
 //given a string, return the word with the most repeated characters
-//if no word has repeated, return -1
+//if no word has repeated, return 0
 //incomplete
 
 function letterCount(str) {
