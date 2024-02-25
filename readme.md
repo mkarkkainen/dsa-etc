@@ -1,1 +1,1 @@
-# Mostly Leetcode solutions.
+# Mostly Leetcode solutions mostly in JS
