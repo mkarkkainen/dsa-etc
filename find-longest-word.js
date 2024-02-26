@@ -1,6 +1,4 @@
 //find longest word in a string.
-//
-
 
 function findLongestWord(str) {
     return str.split(" ").sort((a, b) => b.length - a.length)[0]

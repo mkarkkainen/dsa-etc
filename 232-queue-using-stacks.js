@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/implement-queue-using-stacks/description/
 // 232. Implement Queue using Stacks - Leetcode
 class MyQueue {
     constructor() {

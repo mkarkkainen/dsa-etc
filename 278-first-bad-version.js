@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/first-bad-version/description/
 // 278. First Bad Version - leetcode
 /**
  * Definition for isBadVersion()
