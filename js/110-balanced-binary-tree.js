@@ -13,18 +13,18 @@
  */
 
 function checkHeight(node) {
-    if(!node) return 0
+    if (!node) return 0
 
     const l = checkHeight(node.left)
     const r = checkHeight(node.right)
 
-    if(l===false || r===false || Math.abs(l - r) > 1) {
+    if (l === false || r === false || Math.abs(l - r) > 1) {
         return false
     }
 
     return Math.max(l, r) + 1;
 }
 var isBalanced = function(root) {
-    if(!root) return true
+    if (!root) return true
     return checkHeight(root) !== false
 };
